@@ -7,10 +7,10 @@
           <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Formulario</a>
+          <a class="nav-link" href="formulario">Formulario</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#gerardias">Gerar dias</a>
+            <a class="nav-link" href="gerardias">Gerar dias</a>
         </li>
       </ul>
     </div><!--Fim menu-->
@@ -20,7 +20,7 @@
       <p class="lead">Os códigos da tarefa devera ser disponibilizado no GitHub</p>
     </div>
     <!--Formulario-->
-    <form>
+    <form id="#formulario">
       <div class="container">
         <div class="form-row">
 
@@ -65,7 +65,23 @@
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h6 class="display-4">Gerar Dias:</h6>
     </div>
+    <!--Tabela-->
+    <div class="container">
+      <div class="row">
+        <table class="table table-striped table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Dia</th>
+              <th scope="col">Titulo</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Pontuação</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -110,22 +126,4 @@ li {
 a {
   color: #42b983;
 }
-
-table{
-    padding: 0px;
-    color: white;
-    background-color: #D699AD;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #8A2E2E;
-
-}
-#borda{
-    display: none;
-    color:green;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #7A0000;
-}
-
 </style>
